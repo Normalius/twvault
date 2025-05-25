@@ -1,8 +1,9 @@
 # TW Vault
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/twojlogin/twvault)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Normalius/twvault)
 
 *Kliknij powyższy przycisk, wprowadź wartości zmiennych środowiskowych i poczekaj – po paru minutach Twoja aplikacja będzie działać!*
+
 
 
 This is the original, full source code for my Tribal Wars Vault: https://forum.tribalwars.net/index.php?threads/vault.282252/
