@@ -1,0 +1,37 @@
+{
+  "name": "TW Vault",
+  "description": "Jednoklikowy deploy TW Vault (.NET Core) na Heroku",
+  "repository": "https://github.com/twojlogin/twvault",
+  "logo": "https://raw.githubusercontent.com/twojlogin/twvault/main/logo.png",
+  "buildpacks": [
+    { "url": "https://github.com/jincod/dotnetcore-buildpack" }
+  ],
+  "env": {
+    "DB_HOST": {
+      "description": "Host bazy danych (np. localhost lub JAWSDB URL)",
+      "required": true
+    },
+    "DB_NAME": {
+      "description": "Nazwa bazy danych",
+      "required": true
+    },
+    "DB_USER": {
+      "description": "Użytkownik bazy",
+      "required": true
+    },
+    "DB_PASSWORD": {
+      "description": "Hasło do bazy",
+      "required": true
+    },
+    "ASPNETCORE_ENVIRONMENT": {
+      "description": "Środowisko ASP.NET (Development/Production)",
+      "value": "Production"
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "Free"
+    }
+  }
+}
